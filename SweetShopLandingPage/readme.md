@@ -71,7 +71,7 @@ Writing organized and clean code
 Building a complete frontend project from scratch
 
 👨‍💻 About Me
-Imtiaz Ansari
+Intiyaj Ansari
 Frontend Developer | Web Design Enthusiast
 
 📍 India
@@ -96,13 +96,16 @@ GitHub and CodePen examples
 
 Font & image providers (Unsplash, Google Fonts)
 
-
-## 📸 Screenshots
-
-(Add some screenshots here if you want)
-
 ## 🔧 How to Use
 
 1. Clone the repository or download the ZIP.
 2. Open `index.html` in your browser.
 3. Explore the sweet items and enjoy the design.
+
+## 📸 Screenshots
+
+![Image](https://github.com/user-attachments/assets/cbb6d2dc-b443-482e-9986-20879c881401)
+![Image](https://github.com/user-attachments/assets/94ce1251-8c8c-4837-abd2-7e4ae9c35d81)
+![Image](https://github.com/user-attachments/assets/9f0790a6-e374-4879-86a0-2bac2b287f49)
+![Image](https://github.com/user-attachments/assets/3b10617a-1441-4546-9805-38f72fbf447e)
+
