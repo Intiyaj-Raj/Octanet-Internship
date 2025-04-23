@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Bliss Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar sticky">
+        <div class="container nav-content">
+            <img src="image/logo.png" alt="Sweet Bliss Logo" class="logo">
+            <span class="shop-name">Sweet Bliss Shop</span>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#featured">Sweets</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="home">
+        <div class="container header-content">
+            <h1>Welcome to Sweet Bliss!</h1>
+            <p>Your destination for delicious, dreamy sweets.</p>
+        </div>
+    </header>
+
+    <section id="featured" class="featured-section">
+        <div class="container">
+            <h2>Featured Sweets</h2>
+            <div class="sweets-gallery">
+                <div class="sweet-card">
+                    <img src="image/cupcake.jpg" alt="Cupcake" />
+                    <span>Cupcake</span>
+                </div>
+                <div class="sweet-card">
+                    <img src="image/macron.webp" alt="Macaron" />
+                    <span>Macaron</span>
+                </div>
+                <div class="sweet-card">
+                    <img src="image/donut.jpg" alt="Donut" />
+                    <span>Donut</span>
+                </div>
+                <div class="sweet-card">
+                    <img src="image/candy.jpg" alt="Candy" />
+                    <span>Candy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about-content">
+            <h2>About Us</h2>
+            <p>Sweet Bliss Shop is a family-owned sweets boutique dedicated to making every day a little sweeter! We
+                craft every treat with love and use only the best ingredients. Visit us to feel the difference and taste
+                the love in every bite.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container contact-content">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Your Name" required />
+                <input type="email" id="email" name="email" placeholder="Your Email" required />
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="formSuccess" class="form-success" style="display:none;">Thank you for reaching out!</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-info">
+                <h4>Sweet Bliss Shop</h4>
+                <p>123 Candy Lane, Sweetville</p>
+                <p>23/4, MG Road,Mumbai, India.</p>
+                <p>Email: help@sweetblissshop.com</p>
+            </div>
+            <div class="footer-hours">
+                <h4>Opening Hours</h4>
+                <ul>
+                    <li>Mon-Fri: 10am - 7pm</li>
+                    <li>Sat-Sun: 11am - 5pm</li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">Sweet Bliss Shop © 2025. All rights reserved.</div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
