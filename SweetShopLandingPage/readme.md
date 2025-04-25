@@ -44,7 +44,7 @@ This project simulates a modern sweet shop website that:
 
 📁 Project Structure
 sweet-bliss-shop/
-│<br>
+<br>
 ├── index.html <br>
 ├── style.css  <br>
 ├── script.js  <br>
