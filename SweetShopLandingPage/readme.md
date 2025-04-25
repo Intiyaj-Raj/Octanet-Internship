@@ -43,16 +43,13 @@ This project simulates a modern sweet shop website that:
 ---
 
 📁 Project Structure
-markdown
-Copy
-Edit
 sweet-bliss-shop/
-│
-├── index.html
-├── style.css
-├── script.js
-└── images/
-    └── (your sweet images here)
+│<br>
+├── index.html <br>
+├── style.css  <br>
+├── script.js  <br>
+└── images  product images <br>
+
 
 
 🧠 What I Learned
